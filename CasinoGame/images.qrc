@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/symbols/najfajniejsze/transparent/bananas.png</file>
+        <file>images/symbols/najfajniejsze/transparent/bar.png</file>
+        <file>images/symbols/najfajniejsze/transparent/bell.png</file>
+        <file>images/symbols/najfajniejsze/transparent/cherry.png</file>
+        <file>images/symbols/najfajniejsze/transparent/coin.png</file>
+        <file>images/symbols/najfajniejsze/transparent/corns.png</file>
+        <file>images/symbols/najfajniejsze/transparent/diamond.png</file>
+        <file>images/symbols/najfajniejsze/transparent/dice.png</file>
+        <file>images/symbols/najfajniejsze/transparent/four_leaf_clover.png</file>
+        <file>images/symbols/najfajniejsze/transparent/grapefruits.png</file>
+        <file>images/symbols/najfajniejsze/transparent/horsehoe.png</file>
+        <file>images/symbols/najfajniejsze/transparent/lemons.png</file>
+        <file>images/symbols/najfajniejsze/transparent/orange.png</file>
+        <file>images/symbols/najfajniejsze/transparent/plum.png</file>
+        <file>images/symbols/najfajniejsze/transparent/seven.png</file>
+        <file>images/symbols/najfajniejsze/transparent/silver_coin.png</file>
+        <file>images/symbols/najfajniejsze/transparent/strawberries.png</file>
+        <file>images/symbols/najfajniejsze/wszystkie/symbols2.jpg</file>
+        <file>images/symbols/najfajniejsze/wszystkie/symbols4.jpg</file>
+        <file>images/symbols/najfajniejsze/2win.jpg</file>
+        <file>images/symbols/najfajniejsze/bananas.jpg</file>
+        <file>images/symbols/najfajniejsze/bar.jpg</file>
+        <file>images/symbols/najfajniejsze/bell.jpg</file>
+        <file>images/symbols/najfajniejsze/cherry.jpg</file>
+        <file>images/symbols/najfajniejsze/coin.jpg</file>
+        <file>images/symbols/najfajniejsze/corns.jpg</file>
+        <file>images/symbols/najfajniejsze/diamond.jpg</file>
+        <file>images/symbols/najfajniejsze/dice.jpg</file>
+        <file>images/symbols/najfajniejsze/four_leaf_clover.jpg</file>
+        <file>images/symbols/najfajniejsze/grapefruits.jpg</file>
+        <file>images/symbols/najfajniejsze/horsehoe.jpg</file>
+        <file>images/symbols/najfajniejsze/lemons.jpg</file>
+        <file>images/symbols/najfajniejsze/orange.jpg</file>
+        <file>images/symbols/najfajniejsze/plum.jpg</file>
+        <file>images/symbols/najfajniejsze/seven.jpg</file>
+        <file>images/symbols/najfajniejsze/silver_coin.jpg</file>
+        <file>images/symbols/najfajniejsze/strawberries.jpg</file>
+        <file>images/machines/reel.png</file>
+        <file>images/symbols/najfajniejsze/transparent/2win.png</file>
+        <file>images/machines/machine21.png</file>
+    </qresource>
+</RCC>

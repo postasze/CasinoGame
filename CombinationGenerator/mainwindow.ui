@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>853</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QMdiArea" name="mdiArea"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>853</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuUstawianie_parametr_w">
+    <property name="title">
+     <string>Ustawianie parametrów</string>
+    </property>
+    <addaction name="actionUstawianie_og_lnych_parametr_w"/>
+    <addaction name="actionUstawianie_linii"/>
+    <addaction name="actionUstawianie_nagr_d"/>
+    <addaction name="actionustawianie_b_bn_w"/>
+   </widget>
+   <widget class="QMenu" name="menuWy_wietlanie_rezultat_w">
+    <property name="title">
+     <string>Wyświetlanie rezultatów</string>
+    </property>
+    <addaction name="actionWy_wietlanie"/>
+   </widget>
+   <widget class="QMenu" name="menuZapisywanie_do_pliku">
+    <property name="title">
+     <string>Zapisywanie do pliku</string>
+    </property>
+    <addaction name="actionZapisz"/>
+   </widget>
+   <widget class="QMenu" name="menuWczytywanie_z_pliku">
+    <property name="title">
+     <string>Wczytywanie z pliku</string>
+    </property>
+    <addaction name="actionWczytywanie_ustawie"/>
+   </widget>
+   <widget class="QMenu" name="menuWykonywanie_oblicze">
+    <property name="title">
+     <string>Wykonywanie obliczeń</string>
+    </property>
+    <addaction name="actionWykonaj_obliczenia"/>
+   </widget>
+   <addaction name="menuUstawianie_parametr_w"/>
+   <addaction name="menuWykonywanie_oblicze"/>
+   <addaction name="menuWy_wietlanie_rezultat_w"/>
+   <addaction name="menuZapisywanie_do_pliku"/>
+   <addaction name="menuWczytywanie_z_pliku"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionUstawianie_og_lnych_parametr_w">
+   <property name="text">
+    <string>Ustawianie ogólnych parametrów</string>
+   </property>
+  </action>
+  <action name="actionUstawianie_linii">
+   <property name="text">
+    <string>Ustawianie linii</string>
+   </property>
+  </action>
+  <action name="actionUstawianie_nagr_d">
+   <property name="text">
+    <string>Ustawianie nagród</string>
+   </property>
+  </action>
+  <action name="actionZapisz">
+   <property name="text">
+    <string>Zapisz ustawienia i rezultaty</string>
+   </property>
+  </action>
+  <action name="actionWy_wietlanie">
+   <property name="text">
+    <string>Wyświetl rezultaty</string>
+   </property>
+  </action>
+  <action name="actionustawianie_b_bn_w">
+   <property name="text">
+    <string>ustawianie bębnów</string>
+   </property>
+  </action>
+  <action name="actionWczytywanie_ustawie">
+   <property name="text">
+    <string>Wczytywanie ustawień</string>
+   </property>
+  </action>
+  <action name="actionWykonaj_obliczenia">
+   <property name="text">
+    <string>Wykonaj obliczenia</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ComputationForm</class>
+ <widget class="QWidget" name="ComputationForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>276</width>
+    <height>222</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="computationButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>28</x>
+     <y>33</y>
+     <width>161</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wykonaj obliczenia</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="operationStatus">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>217</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Status wykonywanych operacji   </string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>95</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>160</y>
+     <width>168</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="cancelButton">
+      <property name="text">
+       <string>Anuluj</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="acceptButton">
+      <property name="text">
+       <string>Ok</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
